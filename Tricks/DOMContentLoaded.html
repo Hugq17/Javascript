@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="alertWakeup">Click me</button>
+    <div id="content">How are you today</div>
+    <!-- Thử làm một bài toán logic thử 
+    Tạo một button khi click vào thay thay đổi nội dung của thẻ div -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("alertWakeup").addEventListener("click", function() {
+                document.getElementById("content").textContent = "Yes, i am fine"
+            })
+        })
+    </script>
+</body>
+</html>
