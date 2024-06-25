@@ -6,6 +6,16 @@
     <title>Document</title>
 </head>
 <body>
+   
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("changeText").addEventListener("click", function() {
+            document.getElementById("content").textContent = "Yes, i am fine"
+        })
+    })
+    </script>
+     <div id="content">Hi ae</div>
+     <button id="changeText">Click me change text</button>
     <script src="main.js"></script>
 </body>
 </html>
